@@ -1,0 +1,286 @@
+/* Developed by Matthew Sloggett for the American Society of Plastic Surgeons */
+
+body {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	background:#fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+	font-size: 76%;
+}
+h1 {
+	font-size: 2.0em;
+	font-weight: normal;
+	margin-bottom: 0em;/*both set to zero and padding in header div is used intead to deal with compound ie pc problems that are beyound summary in a simple comment.*/
+	}
+h2 {
+	font-size: 1.8em;
+	margin: 0.5em 0em 1em 0em;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+	}
+h3 {
+	font-size: 1.6em;
+	margin: 1em 0em 0.1em 0em;
+	font-weight: bold;
+	color: #333333;
+	}
+h4 {
+	font-size: 1.3em;
+	margin: 1em 0em 0.1em 0em;
+	font-weight: bold;
+	color: #333;
+	}
+h5 {
+	font-size: 1.0em;
+	margin: 1em 0em 1em 0em;
+	font-weight: bold;
+	}
+h6 {
+	font-size: 0.8em;
+	margin: 1em 0em 1em 0em;
+	font-weight: bold;
+	}
+img {
+	border: 0;
+	}
+p {
+	color: #000000;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	margin: 0.1em 0em 1.4em 0em;
+	}
+li {
+	color: #000000;
+	}
+a {
+	font-size: 1.0em;
+	line-height: 1.4em;
+	color: #666;
+	text-decoration:underline;
+	}
+a:hover {
+	text-decoration:none;
+	}
+strong, b {
+	font-weight: bold;
+	}
+
+#container1 {
+	width: 98%;
+}
+#container2 {}
+#container3 {}
+
+#branding 	{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+	text-align: center;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+		#branding h1, #branding h2, #branding h3, #branding h4, #branding p{
+			margin: 0.5em 0em 0.5em 0em;
+			}
+			
+	#branding-logo {}
+	#branding-tagline {}
+	#branding-name {}
+	#branding-extra {}
+#nav1 {}
+
+	#nav1-main {display:none;}
+	#nav1-section {display:none;}
+	#nav1-supp {display:none;}
+	#nav1-extra {display:none;}
+
+#nav2 {}
+
+	#nav2-main {display:none;}
+	#nav2-section {display:none;}
+	#nav2-supp  {display:none;}
+	#nav2-extra {display:none;}
+#content1 {}
+
+#map #content1 {}
+	
+	#content1-intro {}
+	#content1-main {
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	#content1-supp {}
+	#content1-extra {clear: both; height: 1px;}
+
+#content2 {}
+	#content2-intro {}
+	#content2-main {}
+	#content2-supp {}
+	#content2-extra {clear: both; height: 1px;}
+	
+#siteinfo {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#siteinfo p, #siteinfo a, #siteinfo ul, #siteinfo li {color: #000000;}
+	
+	#siteinfo p{ font-size: 1em; margin: 0px; padding: 0px;}
+	#siteinfo ul{ margin: 0px; padding: 5px 0px 2px 0px; text-align: center;}
+	#siteinfo li{ font-size: 1.0em; display: inline; padding: 0px 0px 0px 0px; margin: 0px;}
+	#siteinfo li a{ padding: 0px 4px 0px 4px; margin: 0px;}
+
+	#siteinfo-legal { 
+		margin: 0px; 
+		padding: 5px 0px 0px 0px;
+	}
+	#siteinfo-credits { 
+		margin: 0px; 
+		padding: 0px 0px 5px 0px;
+		
+	}
+	#siteinfo-extra {}
+
+#extradiv1 {display:none;}
+#extradiv2 {display:none;}
+#extradiv3 {display:none;}
+#extradiv4 {display:none;}
+
+
+/* Procedure */
+#procedure_list {				
+		float: right;
+		margin: 0px 0px 0px 0px;
+		/*adding a width fixes float problems with the menu in IE for the Mac */
+		width:220px;
+		padding: 2px 5px 0px 0px;
+	}
+	#procedure_list select {
+		/*Use to force the jump menu width */
+		width:220px; 
+	}
+	#procedure_list form {}
+#procedure_content {}
+	#procedure_content h3 {}
+	#procedure_content h3 a{
+	text-decoration: none;
+	}
+	#procedure_content h3 a:hover{
+	text-decoration: underline;
+	}
+	#procedure_content ul {}
+	#procedure_content ul, #procedure_content li {}
+	#procedure_content li {}
+	#procedure_images {clear: right; float:right; width:160px; margin:20px 0px 20px 20px;}
+#procedure_nav {}
+	#procedure_nav ul {}
+	#procedure_nav ul, #procedure_nav li {}
+	#procedure_nav li {}
+	
+/* Photo Gallery */
+#photo_nav {
+	font-size: 1.0em;
+	float: right;
+	margin: 0px 0px 10px 0px;
+	width: 135px;
+	}
+#photo_nav li a{}
+#photo_nav p{}
+	#photo_nav ul {
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	#photo_nav h3{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 0px;
+	}
+	#photo_nav h3 a {
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 0.8em;
+	padding: 0px;
+	}
+	#photo_nav h3 a:hover{
+	text-decoration: underline;
+	}
+	#photo_nav ul, #photo_nav li {}
+	#photo_nav li {}
+	#photo_nav li a img {padding:0px 2px 2px 0px;}
+	#photo_nav li a:hover img {}
+#photo_content {}
+	#photo_content a {font-size: 1.0em;}
+	#photo_content img {padding:1px; margin:4px 2px 0px 0px; border:2px solid #382c20;}
+	#photo_content p {}
+
+/* MapQuest */
+#map_quest_content { background-color:#FFFFFF; padding: 4px; border: 1px solid #382c20; width:565px;}
+	#map_quest_content a {}
+	#map_quest_content img {border:0;}
+	#map_quest_content p {
+	font-size: 0.9em;
+	line-height: 1.2em;
+	margin: 1em 0em 1em 0em;	
+	color: #000000;
+	}
+
+
+/* Form */
+input { background-color: #FFFFFF;}
+.text_form { font-size: 1em; background-color: #FFFFFF; color: #000000; border: solid #000000 1px; width:300px; margin-bottom: 2px; font-family: arial, Garamond, Georgia, "Times New Roman", Times, serif;}
+.button { font-size: 1em; background-color: #FFFFFF; color: #000000; border: solid #000000 1px; width:80px; font-family: arial, Garamond, Georgia, "Times New Roman", Times, serif;}
+textarea { font-size: 1em; background-color: #FFFFFF; color: #000000; border: solid #000000 1px; width:300px; font-family: arial, Garamond, Georgia, "Times New Roman", Times, serif;}
+.check_box { font-size: 1em; background-color: transparent; color: #000000; font-family: arial, Garamond, Georgia, "Times New Roman", Times, serif;}
+
+
+/* Specials */
+
+.hide {display: none;}
+.hide_div {display: none;}
+.clear_both {clear:both;}
+.clear_left {clear:left;}
+.clear_right {clear:right;}
+.indent {padding: 0px 0px 0px 20px;}
+
+
+
+.news { 
+	border-top: 1px solid #dce3e0;
+	border-left: 1px solid #dce3e0;
+	border-right: 1px solid #dce3e0;
+	background:#015353 url(images/box_bot.gif) bottom left no-repeat;
+	padding: 0px 0px 20px 8px;
+}
+.news h3, .news h4, .news a {color:#ffe1a2; padding: 0px 10px 0px 15px;}
+.news h3 {background:#015353 url(images/news_corner.gif) 0px -5px no-repeat; padding: 10px 0px 0px 15px;}
+.news p { color: #ffffff; padding: 0px 10px 0px 15px;}
+
+.image_right { float: right; clear: right; display: block;}
+
+			#content1 #content1-main h2{
+					height: 1px;
+					display: block;
+					overflow: inherit;
+					overflow: hidden;
+					padding-top: 47px;
+					margin-top: 2px;
+					line-height: 2.0em;
+				}
+
+			#procedures		#content1-main h2{ height: 40px; padding-top: 40px; padding-bottom: 6px; overflow: inherit; display: inherit; background: url(images/h2_procedures.gif) no-repeat;}
+			
+#home		#content1-main h2{ background: url(images/h2_welcome.gif) no-repeat;}
+#meet		#content1-main h2{ background: url(images/h2_meet.gif) no-repeat;}
+#skin		#content1-main h2{ background: url(images/h2_skin.gif) no-repeat;}
+#contact	#content1-main h2{ background: url(images/h2_contact.gif) no-repeat;}
+#map		#content1-main h2{ background: url(images/h2_map.gif) no-repeat;}
+#form_honey { display: none; position: absolute; top: -300px;}
+
+#meet #container2 {
+	background:transparent url(images/nguyen_banner_meet_doc2.jpg) no-repeat;
+}
